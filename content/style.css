@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'AC Line';
+    src: local('AC Line'), url('font/acline.woff2') format('woff2'), url('font/acline.woff') format('woff'), url('font/acline.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my-container {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.cell {
+    height: 100%;
+    overflow: hidden;
+}
+
+.height30 {
+    height: 40%;
+}
+
+.height70 {
+    height: 60%;
+}
+
+.padding-5 {
+    padding: 5px !important;
+}
+
+.bgr-color {
+    background-color: rgba(255, 255, 255, 0.53);
+}
+
+.cell-header {
+    font-family: "AC Line";
+    font-size: 220%;
+    text-align: center;
+    line-height: 140%;
+}
+
+.about {
+    font-family: "AC Line";
+    text-align: center;
+    color: seashell;
+    font-size: 150%;
+    padding: 5% 0 0 0;
+}
+
+.gallery .cell-header {
+    background-color: rgb(140, 150, 247);
+}
+
+.people .cell-header {
+    background-color: aquamarine;
+}
+
+.afisha .cell-header {
+    background-color: #80D4FF;
+}
+
+.contacts .cell-header {
+    color: seashell;
+}
+
+.contacts {
+    font-family: "AC Line";
+}
+
+.logo {
+    font-family: "AC Line";
+    font-size: 500%;
+    text-align: center;
+    line-height: 100%;
+    color: seashell;
+}
+
+.cell-body {
+    background-size: cover;
+    background-position: center;
+    height: inherit;
+    text-align: center;
+    color: seashell;
+    font-size: 150%;
+    padding: 0;
+}
+
+.afisha-body {
+    background-image: url(img/Y1cIVzP2ykA.jpg);
+}
+
+.people-body {
+    background-image: url(img/people.jpg);
+}
+
+.gallery-body {
+    background-image: url(img/menu.jpg);
+}
+
+.socials-icons>a {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+.vk-icon {
+    background-image: url(img/vk1.svg);
+}
+
+.facebook-icon {
+    background-image: url(img/facebook1.svg);
+}
+
+.insta-icon {
+    background-image: url(img/insta1.svg);
+}
